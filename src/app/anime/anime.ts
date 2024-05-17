@@ -4,7 +4,7 @@ export class Anime {
     description: string;
     Rating: number;
     episode: number;
-    categories: string;
+    categorie: string;
     studio: string;
     img: string;
 
@@ -14,7 +14,7 @@ export class Anime {
         this.description = description;
         this.Rating = Rating;
         this.episode = episode;
-        this.categories = categories;
+        this.categorie = categories;
         this.studio = studio;
         this.img = img;
     }
